@@ -1,0 +1,27 @@
+.secondary {
+    background-color: gray;
+}
+.success{
+    background-color: green;
+}
+.warning{
+    background-color:darkorange;
+}
+.danger{
+    background-color: red;
+}
+.info{
+    background-color: aqua;
+}
+.light{
+    background-color: white;
+    color: #000000;
+}
+.dark{
+    background-color: #000000;
+}
+.link{
+    text-decoration: underline;
+    color:skyblue;
+    background-color: transparent;
+}
