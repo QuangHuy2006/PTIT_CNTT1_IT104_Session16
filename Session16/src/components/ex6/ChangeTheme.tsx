@@ -25,7 +25,7 @@ export default class ClickCounter extends Component<object, Click> {
     };
     return (
       <div style={{ display: "flex", flexDirection: "column" }}>
-        {this.state.isClick === false ? <>Chế độ tối</> : <>Chế độ sáng</>}
+        {this.state.isClick === true ? <>Chế độ tối</> : <>Chế độ sáng</>}
         <button onClick={handleCLick}>Click me</button>
       </div>
     );
